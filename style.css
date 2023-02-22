@@ -1,0 +1,249 @@
+body {
+  background-color: #33313d;
+  font-family: sans-serif;
+}
+
+#myCanvas {
+  transform: scale(8);
+  image-rendering: pixelated;
+  background-color: #272532;
+}
+
+#guide {
+  display: grid;
+  pointer-events: none;
+  position: absolute;
+  border: 1px solid #df9533;
+}
+
+#guide div {
+  border: 1px solid #df9533;
+}
+
+#tools {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 234px;
+}
+
+#container {
+  display: flex;
+  flex-flow: column;
+}
+
+#canvasFon {
+  position: absolute;
+  z-index: -1;
+  width: 523px;
+  height: 523px;
+  background-color: #2e2c37;
+  margin: -302px -234px;
+  border: 4px solid #3e3d48;
+}
+
+#canvasCont {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 250px;
+}
+
+#clearButton {
+  background-image: url(img/clean.svg);
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+#clearButton:active {
+  opacity: 0.5;
+}
+
+#driweButton {
+  background-image: url(img/driwe.svg);
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+#driweButton:active {
+  opacity: 0.5;
+}
+
+#redriweButton {
+  background-image: url(img/redriwe.svg);
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+#redriweButton:active {
+  opacity: 0.5;
+}
+
+#min {
+  background-image: url(img/sizemin.svg);
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+#min:active {
+  opacity: 0.5;
+}
+
+#max {
+  background-image: url(img/sizemax.svg);
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+#max:active {
+  opacity: 0.5;
+}
+
+#eraserClick {
+  background-image: url(img/eraser.svg);
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+#eraserClick:active {
+  opacity: 0.5;
+}
+
+#pipetteButton {
+  background-image: url(img/pipette.svg);
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+#pipetteButton:active {
+  opacity: 0.5;
+}
+
+#lineButton {
+  background-image: url(img/line.svg);
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+#lineButton:active {
+  opacity: 0.5;
+}
+
+#RelineButton {
+  background-image: url(img/Reline.svg);
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+#lineButton:active {
+  opacity: 0.5;
+}
+
+#lineMin {
+  background-image: url(img/sizemin.svg);
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+#lineMin:active {
+  opacity: 0.5;
+}
+
+#lineMax {
+  background-image: url(img/sizemax.svg);
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+#lineMax:active {
+  opacity: 0.5;
+}
+
+#colorLoc {
+  background-image: url(img/colorLoc.svg);
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+#colorLoc:active {
+  opacity: 0.5;
+}
+
+#download {
+  background-image: url(img/download.svg);
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+#download:active {
+  opacity: 0.5;
+}
+
+#downloadUrl {
+  height: 40px;
+  width: 400px;
+  background-image: url(img/url.svg);
+  background-color: #272532;
+  margin-left: 5px;
+}
+
+#info {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+  color: #272532;
+}
+
+#colorInput {
+  position: absolute;
+}
+
+#сont {
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#сontMini {
+  display: flex;
+}
+
+.colorVal {
+  background-image: url(img/color.svg);
+  width: 40px;
+  height: 40px;
+  background-color: #272532;
+  margin-left: 5px;
+}
+
+#urlInput {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9px;
+  width: 374px;
+  height: 17px;
+  background-color: #272532;
+  border: 0px;
+  font-family: 'VT323', monospace;
+  font-size: 25px;
+  color: #4a4857;
+  outline: none !important;
+}
